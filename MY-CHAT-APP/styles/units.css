@@ -1,0 +1,206 @@
+/* HEIGHT */
+.H-auto {
+  height: auto;
+}
+.H-100 {
+  height: 100%;
+}
+.W-100 {
+  width: 100%;
+}
+/* PADDING */
+.P-0-5 {
+  padding: 0.5rem;
+}
+.P-1 {
+  padding: 1rem;
+}
+.P-05 {
+  padding: 1.5rem;
+}
+.P-3 {
+  padding: 3.5px;
+}
+.P-4 {
+  padding: 4px;
+}
+
+/* PADDING-TOP */
+.PT-10 {
+  padding-top: 10px;
+}
+.PT-20 {
+  padding-top: 20px;
+}
+.PT-25 {
+  padding-top: 25px;
+}
+.PT-60 {
+  padding-top: 60px;
+}
+
+/* PADDING-BOTTOM */
+.PB-10 {
+  padding-bottom: 10px;
+}
+.PB-25 {
+  padding-bottom: 25px;
+}
+
+/* PADDING-RIGHT */
+.PR-8 {
+  padding-right: 8px;
+}
+.PR-25 {
+  padding-right: 25px;
+}
+
+/* PADDING-LEFT */
+.PL-8 {
+  padding-left: 8px;
+}
+.PL-10 {
+  padding-left: 10px;
+}
+.PL-16 {
+  padding-left: 16px;
+}
+.PL-25 {
+  padding-left: 25px;
+}
+
+/* PADDING-HORIZONTAL */
+.PX-8 {
+  padding: 0px 8px;
+}
+
+.PX-24 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* PADDING-VERTICAL */
+.PY-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* //PADDING// */
+
+/* MARGIN */
+.M-x {
+  margin: 0 auto;
+}
+/* MARGIN-TOP */
+.MT-22 {
+  margin-top: 22px;
+}
+.MT-47 {
+  margin-top: 47px;
+}
+.MT-99 {
+  margin-top: 99px;
+}
+/* MARGIN-BOTTOM */
+.MB-025 {
+  margin-bottom: 0.25rem;
+}
+.MB-10 {
+  margin-bottom: 10px;
+}
+.MB-17 {
+  margin-bottom: 17px;
+}
+.MB-16 {
+  margin-bottom: 16px;
+}
+.MB-20 {
+  margin-bottom: 20px;
+}
+.MB-30 {
+  margin-bottom: 30px;
+}
+/* MARGIN-RIGHT */
+.MR-1 {
+  margin-right: 1rem;
+}
+.MR-5 {
+  margin-right: 0.5rem;
+}
+.MR-16 {
+  margin-right: 16px;
+}
+/* MARGIN-LEFT */
+.ML-1 {
+  margin-left: 1.5rem;
+}
+.ML-5 {
+  margin-left: 0.5rem;
+}
+/* width */
+.W-100 {
+  width: 100%;
+}
+
+/* CURSOR-POINTER */
+.C-Pointer {
+  cursor: pointer;
+}
+
+/* TEXT-ALIGN */
+.TA-Cen {
+  text-align: center;
+}
+
+/* BORDERS */
+/* BORDER-RADIUS */
+
+.BR-50 {
+  border-radius: 50%;
+}
+.BR-3 {
+  border-radius: 3px;
+}
+.B-Style {
+  border: 3px white solid;
+}
+
+/* POSITIONS */
+.Pos-Rel {
+  position: relative;
+}
+.Pos-Abs {
+  position: absolute;
+}
+
+/* TOP */
+.Top-0 {
+  top: 0px;
+}
+
+/* BOTTOM */
+.B-0 {
+  bottom: 0px;
+}
+.B-10 {
+  bottom: 10px;
+}
+/* RIGHT */
+.R-0 {
+  right: 0px;
+}
+.R-10 {
+  right: 10px;
+}
+
+/* LEFT */
+.L-0 {
+  left: 0px;
+}
+
+/* LINE-HEIGHT */
+.LH-5 {
+  line-height: 5px;
+}
+.LH-66 {
+  line-height: 70px;
+}

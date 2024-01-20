@@ -1,0 +1,45 @@
+.online-status {
+  background-color: var(--online-active);
+  border: 2px var(--white-bg) solid;
+}
+.active {
+  background-color: var(--active-green);
+  color: var(--white-bg);
+}
+/* CHAT5-MESSAGES-CONTINER */
+.chat-continer {
+  height: 100%;
+  width: calc(100% - (var(--chat-list-w) + var(--side-menu-W)));
+  background-color: var(--chat-conversation);
+  background-image: url(../assets/images/pattern-05.png);
+}
+/* CHAT-CONTINER-HEADER */
+.chat-head-bg {
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+/* CHAT-MESSAGER-CONTINER */
+.conversation-continer {
+  height: calc(100vh - 95px);
+  width: 100%;
+  overflow-y: auto;
+}
+.message-option {
+  visibility: hidden;
+}
+:hover > .chat-message .message-option {
+  visibility: visible;
+}
+.replay-footer {
+  background-color: var(--replay-continer);
+}
+.attachment {
+  border: 2px solid #4eac6d78;
+  border-radius: 10px;
+}
+.attachment-pin {
+  height: 40px;
+  width: 40px;
+  background-color: #add4b9;
+  color: var(--active-green);
+}

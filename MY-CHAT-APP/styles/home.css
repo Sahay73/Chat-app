@@ -1,0 +1,24 @@
+/* APP-CONTINER */
+.app-continer {
+  background-color: #f2f2f2;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+/* control panel */
+.left-controls {
+  background-color: var(--navigate-panel);
+  height: 100%;
+  width: 75px;
+}
+/* app-chat-contact */
+.left-contact-segment {
+  background-color: var(--white-bg);
+  height: 100%;
+  width: 300px !important;
+}
+.chat-list-continer {
+  height: 80%;
+  width: auto;
+  overflow-y: auto;
+}

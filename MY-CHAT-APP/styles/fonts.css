@@ -1,0 +1,166 @@
+@font-face {
+  font-family: CerebriSansPro;
+  src: url(../assets/fonts/cerebrisans-regular.woff);
+  font-weight: 500;
+}
+@font-face {
+  font-family: CerebriSansPro-Bold;
+  src: url(../assets/fonts/cerebrisans-semibold.woff);
+}
+@font-face {
+  font-family: CerebriSansPro-Light;
+  src: url(../assets/fonts/cerebrisans-medium.woff);
+  font-weight: 400;
+}
+:root {
+  --font-regular: CerebriSansPro;
+  --font-bold: CerebriSansPro-Bold;
+  --font-light: CerebriSansPro-Light;
+}
+h4 {
+  color: var(--chat-headding);
+  font-family: var(--font-bold);
+}
+h5 {
+  color: var(--chat-list-headding);
+  font-family: var(--font-regular);
+}
+small {
+  font-size: 12.3px;
+  color: var(--chat-headding);
+  font-family: var(--font-regular);
+}
+/* FONT-SIZES */
+.FS-1 {
+  font-size: 1.3125rem;
+}
+.FS-11 {
+  font-size: 10px;
+}
+.FS-14 {
+  font-size: 14px;
+}
+.FS-15 {
+  font-size: 15px;
+}
+.FS-18 {
+  font-size: 18px;
+}
+.FS-20 {
+  font-size: 20px;
+}
+.FS-25 {
+  font-size: 25px;
+}
+.FS-28 {
+  font-size: 28px;
+}
+.FS-875em {
+  font-size: 0.875em;
+}
+/* FONT-WEIGHT */
+.FW-600 {
+  font-weight: 600;
+}
+.FW-bold {
+  font-weight: bold;
+}
+
+/* LETTER-SPACING */
+.LS-1 {
+  letter-spacing: 1.5px;
+}
+.LS-2 {
+  letter-spacing: 1px;
+}
+.TA-Jus {
+  text-align: justify;
+}
+.TA-E {
+  text-align: end;
+}
+h6 {
+  color: var(--chat-headding);
+  font-size: 18px;
+}
+
+/* Customize-font-styles */
+.chat-names {
+  color: var(--chat-headding);
+  font-family: var(--font-regular);
+}
+
+.active .unread-msg {
+  font-family: var(--font-bold);
+  background-color: var(--unread-msg-active);
+  color: var(--white-bg);
+  padding: 5px 4px 3px 2px;
+}
+
+.unread-msg {
+  font-family: var(--font-bold);
+  background-color: var(--unread-msg);
+  color: var(--chat-list-headding);
+  padding: 5px 4px 3px 2px;
+}
+
+.active {
+  font-family: var(--font-bold);
+}
+
+.user-initial {
+  height: 29px;
+  width: 34px;
+  background-color: var(--active-green);
+  border-radius: 50%;
+  font-family: var(--font-bold);
+  color: var(--white-bg);
+}
+
+.hash-profile {
+  height: 29px;
+  width: 34px;
+  background-color: var(--channel-bg);
+  border-radius: 50%;
+  font-family: var(--font-bold);
+  color: var(--black-bg);
+}
+
+::placeholder {
+  font-family: var(--font-regular);
+  --chat-message-fw: 400;
+  font-size: 13.9px;
+}
+
+/* CONTROL-PANEL-ICONS */
+.menu-control-icons {
+  color: var(--nav-icon-default);
+  line-height: 2;
+}
+
+:hover.menu-control-icons {
+  color: var(--active-green);
+}
+
+/* CHAT-HEADER-CONTROLS */
+.user-chat-nav {
+  font-size: 22px;
+  color: #74797e;
+}
+
+.recived-message {
+  box-shadow: 0 2px 4px rgba(15, 34, 58, 0.12);
+  color: var(--chat-headding);
+  font-family: var(--font-regular);
+  background-color: var(--white-bg);
+  padding: 13px 19px 13px 19px;
+  width: fit-content;
+}
+.sent-message {
+  box-shadow: 0 2px 4px rgba(15, 34, 58, 0.12);
+  color: var(--chat-headding);
+  font-family: var(--font-regular);
+  background-color: var(--message-sent);
+  padding: 12px 20px;
+  width: fit-content;
+}

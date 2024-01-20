@@ -1,0 +1,44 @@
+/* Display flex */
+.D-Flex {
+  display: flex;
+}
+.D-IB {
+  display: inline-block;
+}
+.FD-Col {
+  flex-direction: column;
+}
+.FD-Row {
+  flex-direction: row;
+}
+.JC-Sb {
+  justify-content: space-between;
+}
+.JC-FE {
+  justify-content: flex-end;
+}
+.JC-Cen {
+  justify-content: center;
+}
+.AI-Cen {
+  align-items: center;
+}
+.AI-End {
+  align-items: end;
+}
+.Flex-G {
+  flex-grow: 1;
+}
+.Gap-5 {
+  gap: 5px;
+}
+.Gap-8 {
+  gap: 8px;
+}
+
+.Gap-30 {
+  gap: 30px;
+}
+.gap-90 {
+  gap: 90px;
+}

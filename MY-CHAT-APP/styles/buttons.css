@@ -1,0 +1,27 @@
+.btn {
+  border: none;
+  outline: none;
+  padding: 7px;
+  background-color: transparent;
+}
+.btn-default {
+  border: none;
+  background-color: #edf7f0;
+  padding: 6px 9px 5px 9px;
+  color: var(--active-green);
+}
+
+.btn-primary {
+  background-color: #f6f6f9;
+  border: none;
+  padding: 10px 20px 5px 15px;
+}
+
+.send-message-btn {
+  width: 43px;
+  height: 43px;
+  border-radius: 5px;
+  font-size: 25px;
+  color: var(--white-bg);
+  background-color: var(--active-green);
+}

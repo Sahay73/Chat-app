@@ -1,0 +1,22 @@
+@font-face {
+  font-family: CerebriSansPro;
+  src: url(../assets/fonts/CerebriSansPro-Regular.ttf);
+}
+
+.contact-search-bar {
+  width: 100%;
+  background-color: var(--chat-search-bar);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: none;
+  outline: none;
+}
+.message-replay-bar {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 0.8rem 1rem;
+}

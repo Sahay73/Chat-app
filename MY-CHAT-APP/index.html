@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/roots.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/icons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Sahay-Chat | Doot</title>
+  </head>
+  <body>
+    <div class="app-continer">
+      <!-- CONTROL-PANEL -->
+      <aside class="left-controls D-Flex FD-Col PX-8">
+        <nav class="H-100 W-100 D-Flex FD-Col JC-Sb">
+          <div class="M-x PT-10">
+            <a class="H-100 LH-66" href="">
+              <span>
+                <svg
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  width="30px"
+                  height="30px"
+                  viewBox="0 0 24 24"
+                  enable-background="new 0 0 24 24"
+                  xml:space="preserve"
+                >
+                  <path
+                    fill="#4EAC6D"
+                    d="M8.5,18l3.5,4l3.5-4H19c1.104,0,2-0.896,2-2V4c0-1.103-0.896-2-2-2H5C3.897,2,3,2.897,3,4v12
+             c0,1.104,0.897,2,2,2H8.5z M7,7h10v2H7V7z M7,11h7v2H7V11z"
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+          <div class="H-100">
+            <ul class="D-Flex TA-Cen FD-Col JC-Sb H-100 PT-20 PT-20 PB-10">
+              <a class="C-Pointer" href="">
+                <li>
+                  <i class="bx menu-control-icons FS-28 bx-user-circle"></i>
+                </li>
+              </a>
+
+              <a class="C-Pointer" href="">
+                <li>
+                  <i class="bx menu-control-icons FS-28 bx-conversation"></i>
+                </li>
+              </a>
+              <a class="C-Pointer" href="">
+                <li>
+                  <i class="bx menu-control-icons FS-28 bxs-user-detail"></i>
+                </li>
+              </a>
+              <a class="C-Pointer" href="">
+                <li>
+                  <i class="bx menu-control-icons FS-28 bx-phone-call"></i>
+                </li>
+              </a>
+              <a class="C-Pointer" href="">
+                <li>
+                  <i class="bx menu-control-icons FS-28 bx-bookmarks"></i>
+                </li>
+              </a>
+              <a class="C-Pointer" href="">
+                <li><i class="bx menu-control-icons FS-28 bx-cog"></i></li>
+              </a>
+              <a class="C-Pointer PT-60" href="">
+                <li><i class="bx menu-control-icons FS-28 bx-moon"></i></li>
+              </a>
+              <a class="C-Pointer" href="">
+                <li class="">
+                  <img
+                    src="./assets/images/myprofile.jpg"
+                    height="36"
+                    width="36"
+                    alt="myprofile"
+                    class="BR-50 B-Style"
+                  />
+                </li>
+              </a>
+            </ul>
+          </div>
+        </nav>
+      </aside>
+      <!-- CHAT-CONTACT-SECTION -->
+      <section class="left-contact-segment">
+        <!--CONTACT-LIST-HEAD -->
+        <div class="PX-24 PT-25 MB-20">
+          <div class="D-Flex AI-Cen FD-Row MB-20">
+            <h4 class="Flex-G FS-1 title-bg">Chats</h4>
+            <button class="btn-default C-Pointer BR-3 hover">
+              <i class="bx bx-plus"></i>
+            </button>
+          </div>
+          <div class="D-Flex">
+            <input
+              class="contact-search-bar"
+              type="text"
+              placeholder="Search here..."
+              name="searchContact"
+              id=""
+            />
+            <button class="btn-primary C-Pointer">
+              <i class="bx FS-15 bx-search align-middle"> </i>
+            </button>
+          </div>
+        </div>
+        <!-- CHAT-CONTACT-LIST -->
+        <div class="chat-list-continer">
+          <!-- FAVOURITES -->
+          <div>
+            <div>
+              <h5 class="FS-11 PX-24 MT-22 MB-17 text-muted LS-2">
+                FAVOURITES
+              </h5>
+            </div>
+            <ul>
+              <a href="">
+                <li class="active">
+                  <div class="D-Flex AI-Cen PX-24 PY-5 C-Pointer">
+                    <div class="D-Flex AI-Cen Pos-Rel">
+                      <img
+                        class="BR-50"
+                        src="assets/images/avatar-2.jpg"
+                        height="29"
+                        width="33"
+                        alt="ChatProfile"
+                      />
+                      <span
+                        class="online-status R-0 B-0 P-3 BR-50 Pos-Abs"
+                      ></span>
+                    </div>
+                    <div class="D-Flex W-100 JC-Sb AI-Cen">
+                      <p class="FS-14 PL-8 FW-600 chat-names active">
+                        Bella Cote
+                      </p>
+                      <p class="unread-msg FS-11 BR-3">18</p>
+                    </div>
+                  </div>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <div class="D-Flex AI-Cen PX-24 PY-5 C-Pointer">
+                    <div class="D-Flex AI-Cen Pos-Rel">
+                      <img
+                        class="BR-50"
+                        src="assets/images/avatar-7.jpg"
+                        height="29"
+                        width="33"
+                        alt="ChatProfile"
+                      />
+                      <span
+                        class="online-status R-0 B-0 P-3 BR-50 Pos-Abs"
+                      ></span>
+                    </div>
+                    <div class="D-Flex W-100 JC-Sb AI-Cen">
+                      <p class="FS-14 PL-8 chat-names">Steven Jury</p>
+                    </div>
+                  </div>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <div class="D-Flex AI-Cen PX-24 PY-5 C-Pointer">
+                    <div class="D-Flex AI-Cen Pos-Rel">
+                      <span class="user-initial D-Flex AI-Cen JC-Cen">
+                        JP
+                      </span>
+                      <span
+                        class="online-status R-0 B-0 P-3 BR-50 Pos-Abs"
+                      ></span>
+                    </div>
+                    <div class="D-Flex W-100 JC-Sb AI-Cen">
+                      <p class="FS-14 PL-8 chat-names">James Pinard</p>
+                    </div>
+                  </div>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <div class="D-Flex AI-Cen PX-24 PY-5 C-Pointer">
+                    <div class="D-Flex AI-Cen Pos-Rel">
+                      <img
+                        class="BR-50"
+                        src="assets/images/avatar-4.jpg"
+                        height="29"
+                        width="33"
+                        alt="ChatProfile"
+                      />
+                      <span
+                        class="online-status R-0 B-0 P-3 BR-50 Pos-Abs"
+                      ></span>
+                    </div>
+                    <div class="D-Flex W-100 JC-Sb AI-Cen">
+                      <p class="FS-14 PL-8 chat-names">Alissa Richards</p>
+                    </div>
+                  </div>
+                </li>
+              </a>
+            </ul>
+          </div>
+          <!-- DIRECT-MESSAGES -->
+          <div>
+            <div class="D-Flex MT-47 MB-10 PX-24 JC-Sb AI-Cen">
+              <h5 class="FS-11 text-muted LS-2">DIRECT MESSAGES</h5>
+              <button class="btn-default hover C-Pointer">
+                <i class="bx bx-plus"></i>
+              </button>
+            </div>
+            <ul>
+              <a href="">
+                <li>
+                  <div class="D-Flex AI-Cen PX-24 PY-5 C-Pointer">
+                    <div class="D-Flex AI-Cen Pos-Rel">
+                      <img
+                        class="BR-50"
+                        src="assets/images/avatar-3.jpg"
+                        height="29"
+                        width="33"
+                        alt="ChatProfile"
+                      />
+                      <span
+                        class="online-status R-0 B-0 P-3 BR-50 Pos-Abs"
+                      ></span>
+                    </div>
+                    <div class="D-Flex W-100 JC-Sb AI-Cen">
+                      <p class="FS-14 PL-8 chat-names">Nicholas Staten</p>
+                    </div>
+                  </div>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <div class="D-Flex AI-Cen PX-24 PY-5 C-Pointer">
+                    <div class="D-Flex AI-Cen Pos-Rel">
+                      <img
+                        class="BR-50"
+                        src="assets/images/avatar-12.jpg"
+                        height="29"
+                        width="33"
+                        alt="ChatProfile"
+                      />
+                      <span
+                        class="online-status R-0 B-0 P-3 BR-50 Pos-Abs"
+                      ></span>
+                    </div>
+                    <div class="D-Flex W-100 JC-Sb AI-Cen">
+                      <p class="FS-14 PL-8 FW-600 chat-names">Kathryn Swarey</p>
+                      <p class="unread-msg FS-11 BR-3">8</p>
+                    </div>
+                  </div>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <div class="D-Flex AI-Cen PX-24 PY-5 C-Pointer">
+                    <div class="D-Flex AI-Cen Pos-Rel">
+                      <img
+                        class="BR-50"
+                        src="assets/images/avatar-5.jpg"
+                        height="29"
+                        width="33"
+                        alt="ChatProfile"
+                      />
+                      <span
+                        class="online-status R-0 B-0 P-3 BR-50 Pos-Abs"
+                      ></span>
+                    </div>
+                    <div class="D-Flex W-100 JC-Sb AI-Cen">
+                      <p class="FS-14 PL-8 chat-names">Robert Ledonne</p>
+                    </div>
+                  </div>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <div class="D-Flex AI-Cen PX-24 PY-5 C-Pointer">
+                    <div class="D-Flex AI-Cen Pos-Rel">
+                      <img
+                        class="BR-50"
+                        src="assets/images/avatar-7.jpg"
+                        height="29"
+                        width="33"
+                        alt="ChatProfile"
+                      />
+                      <span
+                        class="online-status R-0 B-0 P-3 BR-50 Pos-Abs"
+                      ></span>
+                    </div>
+                    <div class="D-Flex W-100 JC-Sb AI-Cen">
+                      <p class="FS-14 PL-8 chat-names">Steven Jury</p>
+                    </div>
+                  </div>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <div class="D-Flex AI-Cen PX-24 PY-5 C-Pointer">
+                    <div class="D-Flex AI-Cen Pos-Rel">
+                      <span class="user-initial D-Flex AI-Cen JC-Cen">
+                        JL
+                      </span>
+                      <span
+                        class="online-status R-0 B-0 P-3 BR-50 Pos-Abs"
+                      ></span>
+                    </div>
+                    <div class="D-Flex W-100 JC-Sb AI-Cen">
+                      <p class="FS-14 PL-8 chat-names">Jessica Lewis</p>
+                    </div>
+                  </div>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <div class="D-Flex AI-Cen PX-24 PY-5 C-Pointer">
+                    <div class="D-Flex AI-Cen Pos-Rel">
+                      <img
+                        class="BR-50"
+                        src="assets/images/avatar-9.jpg"
+                        height="29"
+                        width="33"
+                        alt="ChatProfile"
+                      />
+                      <span
+                        class="online-status R-0 B-0 P-3 BR-50 Pos-Abs"
+                      ></span>
+                    </div>
+                    <div class="D-Flex W-100 JC-Sb AI-Cen">
+                      <p class="FS-14 PL-8 FW-600 chat-names">John Foss</p>
+                      <p class="unread-msg FS-11 BR-3">8</p>
+                    </div>
+                  </div>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <div class="D-Flex AI-Cen PX-24 PY-5 C-Pointer">
+                    <div class="D-Flex AI-Cen Pos-Rel">
+                      <img
+                        class="BR-50"
+                        src="assets/images/avatar-10.jpg"
+                        height="29"
+                        width="33"
+                        alt="ChatProfile"
+                      />
+                      <span
+                        class="online-status R-0 B-0 P-3 BR-50 Pos-Abs"
+                      ></span>
+                    </div>
+                    <div class="D-Flex W-100 JC-Sb AI-Cen">
+                      <p class="FS-14 PL-8 chat-names">Gloria Underhill</p>
+                    </div>
+                  </div>
+                </li>
+              </a>
+            </ul>
+          </div>
+          <!-- CHANNELS -->
+          <div class="MB-10">
+            <div class="D-Flex MT-47 MB-10 PX-24 JC-Sb AI-Cen">
+              <h5 class="FS-11 text-muted LS-2">CHANNELS</h5>
+              <button class="btn-default hover C-Pointer">
+                <i class="bx bx-plus"></i>
+              </button>
+            </div>
+            <ul>
+              <a href="">
+                <li>
+                  <div class="D-Flex AI-Cen PX-24 PY-5 C-Pointer">
+                    <div class="D-Flex AI-Cen Pos-Rel">
+                      <span class="hash-profile D-Flex AI-Cen JC-Cen"> # </span>
+                    </div>
+                    <div class="D-Flex W-100 JC-Sb AI-Cen">
+                      <p class="FS-14 PL-8 FW-600 FW-600 chat-names">
+                        Landing Design
+                      </p>
+                      <p class="unread-msg FS-11 BR-3">12</p>
+                    </div>
+                  </div>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <div class="D-Flex AI-Cen PX-24 PY-5 C-Pointer">
+                    <div class="D-Flex AI-Cen Pos-Rel">
+                      <span class="hash-profile D-Flex AI-Cen JC-Cen"> # </span>
+                    </div>
+                    <div class="D-Flex W-100 JC-Sb AI-Cen">
+                      <p class="FS-14 PL-8 chat-names">Design Phase 2</p>
+                    </div>
+                  </div>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <div class="D-Flex AI-Cen PX-24 PY-5 C-Pointer">
+                    <div class="D-Flex AI-Cen Pos-Rel">
+                      <span class="hash-profile D-Flex AI-Cen JC-Cen"> # </span>
+                    </div>
+                    <div class="D-Flex W-100 JC-Sb AI-Cen">
+                      <p class="FS-14 PL-8 FW-600 chat-names">
+                        Brand Suggestion
+                      </p>
+                      <p class="unread-msg FS-11 BR-3">85</p>
+                    </div>
+                  </div>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <div class="D-Flex AI-Cen PX-24 PY-5 C-Pointer">
+                    <div class="D-Flex AI-Cen Pos-Rel">
+                      <span class="hash-profile D-Flex AI-Cen JC-Cen"> # </span>
+                    </div>
+                    <div class="D-Flex W-100 JC-Sb AI-Cen">
+                      <p class="FS-14 PL-8 chat-names">Reporting</p>
+                    </div>
+                  </div>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- CHAT-SECTION -->
+      <main class="chat-continer Pos-Rel">
+        <!-- HEADDER-NAV -->
+        <header
+          class="PT-25 PR-25 PT-25 Pos-Abs R-0 L-0 PL-25 PB-25 chat-head-bg"
+        >
+          <nav class="D-Flex JC-Sb AI-Cen">
+            <div class="D-Flex">
+              <div class="D-Flex MR-16 AI-Cen Pos-Rel">
+                <img
+                  class="BR-50"
+                  src="assets/images/avatar-2.jpg"
+                  height="38"
+                  width="39"
+                  alt="ChatProfile"
+                />
+                <span class="online-status R-0 B-0 P-3 BR-50 Pos-Abs"></span>
+              </div>
+              <div class="D-Flex FD-Col Gap-5">
+                <h4 class="Flex-G FS-18 title-bg">Bella Cote</h4>
+                <p class="FS-875em chat-names">Online</p>
+              </div>
+            </div>
+            <div class="D-Flex">
+              <ul class="D-Flex Gap-30 LH-5 PR-8">
+                <a href="">
+                  <li>
+                    <i class="bx bx-search user-chat-nav"></i>
+                  </li>
+                </a>
+                <a href="">
+                  <li><i class="bx bxs-phone-call user-chat-nav"></i></li>
+                </a>
+                <a href="">
+                  <li><i class="bx bx-video user-chat-nav"></i></li>
+                </a>
+                <a href="">
+                  <li><i class="bx bxs-info-circle user-chat-nav"></i></li>
+                </a>
+                <a href="">
+                  <li>
+                    <i class="bx bx-dots-vertical-rounded user-chat-nav"></i>
+                  </li>
+                </a>
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <!-- MESSAGES-CONTINER -->
+        <section class="conversation-continer PT-25 PL-25 PR-25">
+          <div class="H-auto MT-99">
+            <ul>
+              <li class="chat-message MB-30">
+                <div class="D-Flex">
+                  <div class="D-Flex MR-16 AI-End">
+                    <img
+                      class="BR-50"
+                      src="assets/images/avatar-2.jpg"
+                      height="28"
+                      width="28"
+                      alt="ChatProfile"
+                    />
+                  </div>
+                  <div>
+                    <div class="D-Flex">
+                      <p class="recived-message MB-10 BR-3">Good morning 😊</p>
+                      <a href="" class="message-option P-4">
+                        <i
+                          class="bx bx-dots-vertical-rounded user-chat-nav"
+                        ></i>
+                      </a>
+                    </div>
+                    <small class="">10:07 am</small>
+                  </div>
+                </div>
+              </li>
+              <li class="D-Flex JC-FE MB-30">
+                <div class="TA-E">
+                  <div class="D-Flex">
+                    <a href="" class="P-4">
+                      <i class="bx bx-dots-vertical-rounded user-chat-nav"></i>
+                    </a>
+                    <p class="sent-message MB-10 BR-3">
+                      Good morning, How are you? What about our next meeting?
+                    </p>
+                  </div>
+                  <i class="bx bx-check-double"></i>
+                  <small class="">10:07 am</small>
+                </div>
+              </li>
+              <li class="D-Flex MB-30">
+                <div class="D-Flex MR-16 AI-End">
+                  <img
+                    class="BR-50"
+                    src="assets/images/avatar-2.jpg"
+                    height="28"
+                    width="28"
+                    alt="ChatProfile"
+                  />
+                </div>
+                <div>
+                  <div class="D-Flex">
+                    <p class="recived-message MB-10 BR-3">
+                      Yeah everything is fine. Our next meeting tomorrow at
+                      10.00 AM
+                    </p>
+                    <a href="" class="P-4">
+                      <i class="bx bx-dots-vertical-rounded user-chat-nav"></i>
+                    </a>
+                  </div>
+                  <div class="D-Flex">
+                    <p class="recived-message MB-10 BR-3">
+                      Hey, I'm going to meet a friend of mine at the department
+                      store. I have to buy some presents for my parents 🎁.
+                    </p>
+                    <a href="" class="P-4">
+                      <i class="bx bx-dots-vertical-rounded user-chat-nav"></i>
+                    </a>
+                  </div>
+                  <small class="">10:07 am</small>
+                </div>
+              </li>
+              <li class="D-Flex JC-FE MB-30">
+                <div class="TA-E">
+                  <div class="D-Flex">
+                    <a href="" class="P-4">
+                      <i class="bx bx-dots-vertical-rounded user-chat-nav"></i>
+                    </a>
+                    <p class="sent-message MB-10 BR-3">Wow that's great</p>
+                  </div>
+                  <i class="bx bx-check-double"></i>
+                  <small class="">10:07 am</small>
+                </div>
+              </li>
+              <li class="D-Flex MB-30">
+                <div class="D-Flex MR-16 AI-End">
+                  <img
+                    class="BR-50"
+                    src="assets/images/avatar-2.jpg"
+                    height="28"
+                    width="28"
+                    alt="ChatProfile"
+                  />
+                </div>
+                <div>
+                  <div class="D-Flex Gap-8">
+                    <div class="Pos-Rel D-Flex">
+                      <div>
+                        <img src="assets/images/img-1.jpg" width="150" alt="" />
+                      </div>
+                      <div class="Pos-Abs B-10 R-10">
+                        <a href="">
+                          <i class="bx bx-dots-horizontal-rounded"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="Pos-Rel D-Flex">
+                      <div>
+                        <img src="assets/images/img-2.jpg" width="150" alt="" />
+                      </div>
+                      <div class="Pos-Abs B-10 R-10">
+                        <a href="">
+                          <i class="bx bx-dots-horizontal-rounded"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <small class="">10:07 am</small>
+                </div>
+              </li>
+              <li class="D-Flex JC-FE MB-30">
+                <div class="TA-E">
+                  <div class="D-Flex">
+                    <a href="" class="P-4">
+                      <i class="bx bx-dots-vertical-rounded user-chat-nav"></i>
+                    </a>
+                    <div class="D-Flex AI-Cen sent-message MB-10 BR-3">
+                      <div class="P-1 D-Flex attachment">
+                        <div
+                          class="attachment-pin D-Flex AI-Cen MR-1 JC-Cen BR-50"
+                        >
+                          <i class="ri-attachment-2 FS-20"></i>
+                        </div>
+
+                        <div class="D-Flex JC-Sb TA-Jus FD-Col">
+                          <h5 class="FS-14 MB-025">
+                            design-phase-1-approved.pdf
+                          </h5>
+                          <p class="FS-14">12.5 MB</p>
+                        </div>
+                        <div class="ML-1 D-Flex AI-Cen">
+                          <a
+                            href="
+                          "
+                          >
+                            <i class="bx bxs-download user-chat-nav"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <i class="bx bx-check-double"></i>
+                  <small class="">10:07 am</small>
+                </div>
+              </li>
+              <li>
+                <div class="D-Flex">
+                  <div class="D-Flex MR-16 AI-End">
+                    <img
+                      class="BR-50"
+                      src="assets/images/avatar-2.jpg"
+                      height="28"
+                      width="28"
+                      alt="ChatProfile"
+                    />
+                  </div>
+                  <div>
+                    <div class="D-Flex">
+                      <p class="recived-message MB-10 BR-3">Typing...</p>
+                      <a href="" class="message-option P-4">
+                        <i
+                          class="bx bx-dots-vertical-rounded user-chat-nav"
+                        ></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- MESSAGES-FOOTER -->
+        <footer class="replay-footer P-1">
+          <div class="D-Flex AI-Cen P-0-5">
+            <div class="D-Flex Gap-5 MR-5">
+              <button class="btn C-Pointer">
+                <i
+                  class="bx bx-dots-horizontal-rounded user-chat-nav align-middle"
+                ></i>
+              </button>
+              <button class="btn C-Pointer">
+                <i class="bx bx-smile align-middle user-chat-nav"></i>
+              </button>
+            </div>
+            <div class="Flex-G">
+              <input
+                class="W-100 message-replay-bar"
+                placeholder="Type your message..."
+                type="text"
+              />
+            </div>
+            <div class="D-Flex Gap-5 ML-5">
+              <button class="btn C-Pointer">
+                <i class="bx bx-microphone user-chat-nav align-middle"></i>
+              </button>
+              <button class="btn C-Pointer send-message-btn">
+                <i class="bx bxs-send align-middle" id="submit-btn"></i>
+              </button>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
